@@ -99,6 +99,57 @@
   <ItemGroup>
     <None Include="Resources\Rain3.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15549a14589707.5628669c64769.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloudApp_31082.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\partly.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rainy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunny.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\partlycloudy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rainy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunny.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\storm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backclear.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudybackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowybackground.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

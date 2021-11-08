@@ -30,9 +30,7 @@ namespace XMLWeather
 
         private void ExtractForecast()
         {
-            string city = "Stratford, CA";
-            XmlReader reader = XmlReader.Create("http://api.openweathermap.org/data/2.5/forecast/daily?q" +
-                 city + "&mode=xml&units=metric&cnt=7&appid=3f2e224b815c0ed45524322e145149f0");
+            XmlReader reader = XmlReader.Create("http://api.openweathermap.org/data/2.5/forecast/daily?q=Stratford,CA&mode=xml&units=metric&cnt=7&appid=3f2e224b815c0ed45524322e145149f0");
 
             while (reader.Read())
             {
@@ -63,9 +61,9 @@ namespace XMLWeather
             reader.ReadToFollowing("temperature");
             days[0].currentTemp = reader.GetAttribute("value");
 
-
             reader.ReadToFollowing("weather");
             days[0].condition = reader.GetAttribute("value");
+
 
         }
 
