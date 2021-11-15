@@ -50,6 +50,7 @@
             this.min4 = new System.Windows.Forms.Label();
             this.min2 = new System.Windows.Forms.Label();
             this.min6 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // forecastLabel
@@ -295,12 +296,25 @@
             this.min6.TabIndex = 79;
             this.min6.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Oswald", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(15, 325);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(222, 36);
+            this.label1.TabIndex = 86;
+            this.label1.Text = "7 DAY WEATHER FORECAST";
+            // 
             // ForecastScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::XMLWeather.Properties.Resources._15549a14589707_5628669c64769;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.min6);
             this.Controls.Add(this.min2);
             this.Controls.Add(this.min4);
@@ -354,5 +368,6 @@
         private System.Windows.Forms.Label min4;
         private System.Windows.Forms.Label min2;
         private System.Windows.Forms.Label min6;
+        private System.Windows.Forms.Label label1;
     }
 }

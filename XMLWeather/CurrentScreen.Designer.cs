@@ -51,9 +51,9 @@
             this.cityOutput.BackColor = System.Drawing.Color.Transparent;
             this.cityOutput.Font = new System.Drawing.Font("Oswald", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityOutput.ForeColor = System.Drawing.Color.White;
-            this.cityOutput.Location = new System.Drawing.Point(86, 29);
+            this.cityOutput.Location = new System.Drawing.Point(9, 29);
             this.cityOutput.Name = "cityOutput";
-            this.cityOutput.Size = new System.Drawing.Size(83, 31);
+            this.cityOutput.Size = new System.Drawing.Size(226, 31);
             this.cityOutput.TabIndex = 22;
             this.cityOutput.Text = "City";
             this.cityOutput.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -140,9 +140,9 @@
             // 
             this.currentTempOutput.BackColor = System.Drawing.Color.Transparent;
             this.currentTempOutput.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.currentTempOutput.Font = new System.Drawing.Font("Oswald", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.currentTempOutput.Font = new System.Drawing.Font("Oswald", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentTempOutput.ForeColor = System.Drawing.Color.White;
-            this.currentTempOutput.Location = new System.Drawing.Point(101, 61);
+            this.currentTempOutput.Location = new System.Drawing.Point(103, 55);
             this.currentTempOutput.Name = "currentTempOutput";
             this.currentTempOutput.Size = new System.Drawing.Size(56, 44);
             this.currentTempOutput.TabIndex = 43;
@@ -152,11 +152,11 @@
             // date2
             // 
             this.date2.BackColor = System.Drawing.Color.Transparent;
-            this.date2.Font = new System.Drawing.Font("Oswald", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date2.Font = new System.Drawing.Font("Oswald", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.date2.ForeColor = System.Drawing.Color.White;
-            this.date2.Location = new System.Drawing.Point(3, 105);
+            this.date2.Location = new System.Drawing.Point(3, 100);
             this.date2.Name = "date2";
-            this.date2.Size = new System.Drawing.Size(244, 25);
+            this.date2.Size = new System.Drawing.Size(244, 36);
             this.date2.TabIndex = 44;
             this.date2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -164,20 +164,20 @@
             // 
             this.conditionLabel.BackColor = System.Drawing.Color.Transparent;
             this.conditionLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.conditionLabel.Font = new System.Drawing.Font("Oswald", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conditionLabel.Font = new System.Drawing.Font("Oswald", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conditionLabel.ForeColor = System.Drawing.Color.White;
-            this.conditionLabel.Location = new System.Drawing.Point(8, 311);
+            this.conditionLabel.Location = new System.Drawing.Point(35, 295);
             this.conditionLabel.Name = "conditionLabel";
-            this.conditionLabel.Size = new System.Drawing.Size(239, 33);
+            this.conditionLabel.Size = new System.Drawing.Size(171, 36);
             this.conditionLabel.TabIndex = 45;
             this.conditionLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // conditionPicLabel
             // 
             this.conditionPicLabel.BackColor = System.Drawing.Color.Transparent;
-            this.conditionPicLabel.Location = new System.Drawing.Point(74, 347);
+            this.conditionPicLabel.Location = new System.Drawing.Point(53, 334);
             this.conditionPicLabel.Name = "conditionPicLabel";
-            this.conditionPicLabel.Size = new System.Drawing.Size(100, 50);
+            this.conditionPicLabel.Size = new System.Drawing.Size(138, 66);
             this.conditionPicLabel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.conditionPicLabel.TabIndex = 48;
             this.conditionPicLabel.TabStop = false;
